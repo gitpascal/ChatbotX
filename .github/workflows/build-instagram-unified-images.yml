@@ -2,6 +2,9 @@ name: Build Instagram Unified Login images
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - build/instagram-unified-images
 
 permissions:
   contents: read
